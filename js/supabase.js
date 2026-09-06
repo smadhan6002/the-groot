@@ -1,7 +1,7 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
-import { SUPABASE_URL, SUPABASE_ANON_KEY } from './env.js';
-
 // Initialize and export a single reusable Supabase client instance
+export const SUPABASE_URL = 'https://jritiortuorrpcfkoupf.supabase.co';
+export const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpyaXRpb3J0dW9ycnBjZmtvdXBmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1ODkwMjMsImV4cCI6MjEwNDE2NTAyM30.aV_Z6atA8OgrPZFQ_Oj74u24nGYocz2L8XQXpSRgk0Q';
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 /**
